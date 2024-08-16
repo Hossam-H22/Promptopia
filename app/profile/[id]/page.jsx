@@ -22,7 +22,10 @@ export default function MyProfile() {
         
         
         const fetchPosts = async ()=>{
-            const response = await fetch(`/api/users/${userId}/posts`);
+            const response = await fetch(
+                `/api/users/${userId}/posts`,
+                { cache: 'no-store' }
+            );
             const data = await response.json();
             setPosts(data);            
         }
