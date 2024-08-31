@@ -28,8 +28,4 @@ I'm excited to hear your <u><a href="https://forms.gle/mUQJdnGPey1atnzp9" target
 <br>
 
 
-## License
-This project is licensed under the [MIT license](LICENSE).
-
-
 <br>
